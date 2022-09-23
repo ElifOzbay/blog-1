@@ -1,0 +1,565 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  color: #434343;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  height: 100%;
+}
+
+.navbar .container .nav-border .active a {
+  color: #8A53FF;
+}
+
+.navbar .container a {
+  color: #495367;
+}
+
+.navbar .container button {
+  background-color: #FFFFFF;
+}
+
+.hero-bg {
+  background-image: linear-gradient(90deg, #FFFFFF -0.92%, rgba(255, 255, 255, 0) 75.6%), url("../pics/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 4px 16px rgba(119, 81, 81, 0.118);
+  height: 580px;
+}
+
+.hero-bg .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-bg .container .h1-location {
+  width: 60%;
+}
+
+.hero-bg .container .h1-location h1 {
+  font-family: "Changa One", cursive;
+  color: #434343;
+}
+
+.hero-bg .container .h1-location h1 span {
+  color: #8A53FF;
+}
+
+.hero-bg .container .small-location {
+  width: 50%;
+}
+
+.hero-bg .container .small-location small {
+  font-style: normal;
+  font-size: 22px;
+  color: #434343;
+}
+
+.button-share {
+  background-color: #8A53FF;
+  color: #FFFFFF;
+  height: 46px;
+  width: 15%;
+}
+
+.button-watch1 {
+  background-color: rgba(138, 83, 255, 0.12);
+  align-items: center;
+  display: flex;
+  width: 80%;
+  height: 36px;
+  padding-right: 0%;
+}
+
+.button-hw {
+  height: 80%;
+  width: 48px;
+}
+
+.button-watch2 {
+  background-color: transparent;
+  color: #495367;
+  padding-left: 0%;
+}
+
+#play-icon {
+  color: #8A53FF;
+}
+
+.feat-bg {
+  background-color: #FFFFFF;
+  background-size: cover;
+  padding: 107px 140px;
+  max-width: 100%;
+  height: auto;
+}
+
+.feat-bg .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feat-bg .container img {
+  width: 100%;
+}
+
+.feat-bg .container h6 {
+  color: #8A53FF;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  width: 95%;
+}
+
+.feat-bg .container h1 {
+  width: 95%;
+  color: rgb(67, 67, 67);
+  font-family: "Changa One", cursive;
+}
+
+.feat-bg .container p {
+  color: rgb(67, 67, 67);
+  width: 95%;
+  font-size: 18px;
+  line-height: 33px;
+}
+
+.button-watch3 {
+  background-color: #8A53FF;
+  align-items: center;
+  display: flex;
+  height: 36px;
+}
+
+.button-watch3 i {
+  color: #FFFFFF;
+}
+
+.button-area {
+  color: #8A53FF;
+  background-color: transparent;
+}
+
+.discover-bg .container h5 {
+  color: #8A53FF;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.discover-bg .container h1 {
+  color: rgb(67, 67, 67);
+  font-family: "Changa One", cursive;
+  width: 100%;
+  height: auto;
+}
+
+.discover-bg .container .card {
+  width: 100%;
+}
+
+.discover-bg .container h4 {
+  font-family: "Changa One", cursive;
+  margin: 0px;
+  width: 100%;
+  font-size: 4vh;
+}
+
+.discover-bg .container a {
+  font-size: 100%;
+  width: 100%;
+  padding: 0px;
+  color: #8A53FF;
+}
+
+.share-bg {
+  background-image: url("../pics/Share-your-travels-section-background-image.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 901.18px;
+}
+
+.share-bg .box-bg {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 20px;
+  gap: 30px;
+  width: 50%;
+}
+
+.share-bg .box-bg h5 {
+  color: #8A53FF;
+  text-transform: uppercase;
+}
+
+.share-bg .box-bg h1 {
+  color: rgb(67, 67, 67);
+  font-family: "Changa One", cursive;
+}
+
+.share-bg .box-bg .form-location {
+  display: flex;
+  justify-content: center;
+}
+
+.share-bg .box-bg .form-location form {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 28px 30px;
+  gap: 17px;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.03);
+  border-radius: 12px;
+  width: 90%;
+  height: 40%;
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.share-bg .box-bg .form-location form h4 {
+  font-family: "Changa One", cursive;
+}
+
+.share-bg .box-bg .form-location form p {
+  color: #576074;
+  width: 90%;
+  font-size: 18px;
+}
+
+.share-bg .box-bg .form-location form textarea {
+  resize: none;
+}
+
+.button-size {
+  background-color: #8A53FF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 222px;
+  height: 8.5%;
+  opacity: 0.9;
+}
+
+.story-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 83px 110px;
+  gap: 30px;
+  border: 1px 0;
+}
+
+.story-bg .container h5 {
+  color: #8A53FF;
+  text-transform: uppercase;
+}
+
+.story-bg .container h1 {
+  color: rgb(67, 67, 67);
+  font-family: "Changa One", cursive;
+}
+
+.card-location {
+  display: flex;
+  justify-content: space-around;
+  background-color: #F9F9F9;
+  padding: 11px 5px 20px 5px;
+}
+
+.card-location .card-text-area {
+  width: 85%;
+}
+
+.card-location h4 {
+  font-family: "Changa One", cursive;
+  font-size: 24px;
+}
+
+.card-location p {
+  width: 95%;
+  font-size: 16px;
+}
+
+.card-location .button-location {
+  display: flex;
+  align-items: center;
+  width: 9%;
+}
+
+.card-location .button-location button {
+  background-color: #8A53FF;
+  display: flex;
+  align-items: center;
+  padding-left: 17px;
+  height: 48px;
+  width: 100%;
+}
+
+.card-location .button-location i {
+  color: #FFFFFF;
+}
+
+.right-story-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2px;
+  gap: 10px;
+  width: 600px;
+  height: 100%;
+}
+
+.right-story-col img {
+  width: 100%;
+  height: 128px;
+}
+
+.right-story-col .card-img-sm {
+  margin: 10px;
+}
+
+.right-story-col p {
+  width: 100%;
+}
+
+.right-story-col .card-body {
+  padding: 9.6px;
+}
+
+footer {
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+}
+
+.footer small {
+  color: #939EB4;
+}
+
+.footer small a {
+  color: #939EB4;
+}
+
+.nav-location {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-shadow {
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+.nav-border {
+  border-right: 1px solid #EEEEEE;
+  flex: none;
+  flex-grow: 0;
+}
+
+.hero-location {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 100px;
+}
+
+.hero-location h6 {
+  color: #8A53FF;
+  text-transform: uppercase;
+}
+
+.hero-location h1 {
+  color: rgb(67, 67, 67);
+  font-family: "Changa One", cursive;
+}
+
+.hero-location .auth-text {
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.hero-location .auth-text .avatar {
+  display: flex;
+  align-items: center;
+}
+
+.hero-location .auth-text .avatar img {
+  width: 100%;
+}
+
+.hero-location .auth-text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.hero-location .auth-text .img-comment {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 13px;
+  color: #A2A7B1;
+}
+
+.image {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.image h1 {
+  height: 100%;
+  width: 100%;
+  color: #FFFFFF;
+  position: absolute;
+  text-align: center;
+  top: 390px;
+  font-style: italic;
+  font-family: "Hurricane", cursive;
+  font-weight: 590;
+  line-height: 92.4px;
+  font-size: 90px;
+}
+
+.image button {
+  position: absolute;
+  background: rgba(138, 83, 255, 0.6);
+  left: calc(50% - 52.335px - 0px);
+  top: calc(50% - 52.815px + 47.5px);
+  width: 7%;
+  height: 105.63px;
+  border: 0;
+  top: 450px;
+}
+
+.text {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.text h4 {
+  font-family: "Changa One", cursive;
+}
+
+.text p {
+  width: 100%;
+}
+
+.callout {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.callout .img-location {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.callout .img-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.callout .callout-title span {
+  color: #8A53FF;
+  font-family: "Signika Negative", sans-serif;
+  margin-top: 10px;
+  display: flex;
+}
+
+.callout .callout-title h1 {
+  color: #434343;
+  font-style: italic;
+  font-family: "Changa One", cursive;
+  letter-spacing: -0.04em;
+  width: 100%;
+  height: 100%;
+}
+
+.callout .callout-title .callout-text {
+  width: 90%;
+  margin-top: 30px;
+}
+
+.callout .callout-title a button {
+  margin-top: 15px;
+  width: 165.17px;
+  height: 46px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.callout .callout-title a button:hover {
+  background-color: rgba(137, 83, 255, 0.8588235294);
+}
+
+.callout .conclusion-text {
+  margin-top: 80px;
+  margin-right: 80px;
+  width: 89%;
+}
+
+.high-location h4 {
+  font-family: "Changa One", cursive;
+  font-size: 200%;
+}
+
+.high-location .card-group {
+  margin-top: 1%;
+}
+
+.high-location .card-group .card-img-top {
+  width: 100%;
+}
+
+.high-location .card-group .card {
+  border: 0;
+  width: 100;
+}
+
+.high-location .card-group .card .card-body {
+  font-style: italic;
+  color: #828181;
+  margin-top: 4%;
+  padding: 0%;
+}
+
+.diclamier-location {
+  margin-top: 25px;
+  padding: 19px 29px 19px 29px;
+  width: 89%;
+  line-height: 26px;
+  display: flex;
+  justify-content: center;
+  background-color: #FAFAFA;
+}
+
+.diclamier-location span {
+  font-weight: 500;
+}/*# sourceMappingURL=main.css.map */
